@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-6 offset-3" align="center">
+      <p-card header="Create user">
+        <div class="row">
+          <div class="col-12">
+            <input
+              type="text"
+              class="p-inputtext-sm"
+              pInputText
+              placeholder="Username"
+            />
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col-12">
+            <input
+              type="email"
+              class="p-inputtext-sm"
+              pInputText
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <ng-template pTemplate="footer">
+          <button
+            pButton
+            pRipple
+            type="button"
+            label="Save"
+          ></button>
+          <button
+            pButton
+            pRipple
+            type="button"
+            class="mx-1 p-button-secondary"
+            label="Cancel"
+            routerLink=""
+          ></button>
+        </ng-template>
+      </p-card>
+    </div>
+  </div>
+</div>
